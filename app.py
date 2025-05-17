@@ -1,8 +1,8 @@
 import streamlit as st
 import json
 import csv
-import artis
-import genre
+import artis_modul
+import genre_modul
 
 
 # Load dummy data lagu
@@ -95,7 +95,7 @@ if menu == "Populer":
 
 
 elif menu == "Artis":
-    artis.run()
+    artis_modul.run()
 
 elif menu == "Genre":
-    genre.run()
+    genre_modul.run()
