@@ -1,7 +1,5 @@
 import streamlit as st
 import json
-from artis import show_artis
-from genre import show_genre
 import csv
 import artis
 import genre
